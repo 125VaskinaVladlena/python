@@ -4,6 +4,5 @@ if (x>y) or (y<=0):
     print ("Tom won't catch up with Jerry")
 else:
     s=int(input("The initial distance between them: "))
-    a=s*x//(y-x)
-    t=a//x
+    t=s//(y-x)
     print("Tom will catch up with Jerry in " , t , 'seconds')

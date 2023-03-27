@@ -3,4 +3,4 @@ nickname = input("Введите свой ник: ")
 if nickname in list_of_brothers:
     print(f"Ты – свой. Приветствую, любезный {nickname}!")
 else:
-    print("Тут ничего нет. Еще есть вопросы?")
+    print("Тут ничего нет. Еще есть вопросы? ")
